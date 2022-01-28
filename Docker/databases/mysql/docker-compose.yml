@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+    default_mysql_db:
+        restart: "always"
+        build:
+            context: .
+            target: default_mysql_db
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+            MYSQL_DATABASE: default_db
+            MYSQL_USER: db_admin
+            MYSQL_PASSWORD: db_pass
+        volumes:
+            - default_mysql_db_data:/var/lib/mysql
+
+    # adminer:
+    #   restart: "always"
+    #   image: adminer
+    #   ports:
+    #     - "8080:8080"
+    #   environment:
+    #     ADMINER_DESIGN: "dracula"
+    #   depends_on:
+    #     - default_mysql_db
+
+volumes:
+    default_mysql_db_data:
