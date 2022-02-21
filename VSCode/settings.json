@@ -1,0 +1,166 @@
+{
+  "editor.fontFamily": "'Iosevka', 'Ubuntu Mono', 'DM Mono', Consolas, 'Courier New', monospace",
+  "editor.wordWrap": "bounded",
+  "files.autoSave": "onFocusChange",
+  "editor.cursorSmoothCaretAnimation": true,
+  // "editor.detectIndentation": false,
+  "workbench.editor.enablePreview": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "search.exclude": {
+    "**/node_modules": true,
+    "package*.json": true,
+    "*.lock": true
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "php.suggest.basic": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.emptyWindow": false,
+  "gitlens.views.remotes.pullRequests.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "trailing",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffc14ed7",
+    "editorBracketHighlight.foreground2": "#ff6eb2d7",
+    "editorBracketHighlight.foreground3": "#45a8f9d7",
+    "editorBracketHighlight.foreground4": "#B084EBd7",
+    "editorBracketHighlight.foreground5": "#36f2ffd7",
+    "editorBracketHighlight.foreground6": "#72faafd7",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
+  },
+  "projectManager.git.baseFolders": ["D:\\projects", "D:\\1-dev_tools"],
+  "projectManager.tags": [
+    "Personal",
+    "Work",
+    "Live Apps",
+    "Simplon",
+    "Studying",
+    "Tests",
+    "Briefs"
+  ],
+  "projectManager.vscode.baseFolders": ["D:\\projects"],
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.twig": "twig",
+    ".env.local": "ini"
+  },
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "redhat.telemetry.enabled": false,
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": false,
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "docker.volumes.groupBy": "CreatedTime",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetchPeriod": 300,
+  "git.pruneOnFetch": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 90,
+  "workbench.startupEditor": "none",
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib",
+    "build"
+  ],
+  "editor.tabSize": 2,
+  "prettier.jsxSingleQuote": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.folders.color": "#ead2ac",
+  "workbench.colorTheme": "Dracula Soft",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.experimental.layoutControl.enabled": true
+}
