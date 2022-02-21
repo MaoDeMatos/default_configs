@@ -1,5 +1,12 @@
 {
+  "workbench.colorTheme": "Dracula Soft",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.folders.color": "#ead2ac",
   "editor.fontFamily": "'Iosevka', 'Ubuntu Mono', 'DM Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "trailing",
   "editor.wordWrap": "bounded",
   "files.autoSave": "onFocusChange",
   "editor.cursorSmoothCaretAnimation": true,
@@ -25,8 +32,6 @@
   "security.workspace.trust.emptyWindow": false,
   "gitlens.views.remotes.pullRequests.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "editor.fontSize": 13,
-  "editor.renderWhitespace": "trailing",
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
   "workbench.colorCustomizations": {
@@ -39,6 +44,7 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
   },
   "projectManager.git.baseFolders": ["D:\\projects", "D:\\1-dev_tools"],
+  "projectManager.vscode.baseFolders": ["D:\\projects"],
   "projectManager.tags": [
     "Personal",
     "Work",
@@ -48,7 +54,6 @@
     "Tests",
     "Briefs"
   ],
-  "projectManager.vscode.baseFolders": ["D:\\projects"],
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -126,6 +131,15 @@
     "strings": true
   },
   "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw='([^']*)", // <div tw='...' />
+    "tw={'([^'}]*)", // <div tw={'...'} />
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+],
   "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -154,11 +168,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.saturation": 1,
-  "material-icon-theme.folders.color": "#ead2ac",
-  "workbench.colorTheme": "Dracula Soft",
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
