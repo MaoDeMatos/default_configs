@@ -2,6 +2,6 @@
 
 Exec `notepad $PROFILE` in Powershell to create your default pwsh profile, wich will be located at :
 
-`~/Documents/PowerShell`
+`~/Documents/PowerShell` for pwsh 7+
 
-`~/Documents/WindowsPowerShell`
+`~/Documents/WindowsPowerShell` for pwsh 5
