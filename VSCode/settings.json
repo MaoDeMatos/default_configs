@@ -44,15 +44,7 @@
   },
   "projectManager.git.baseFolders": ["C:\\projects"],
   "projectManager.vscode.baseFolders": ["C:\\projects"],
-  "projectManager.tags": [
-    "Personal",
-    "Work",
-    "Live Apps",
-    "Simplon",
-    "Studying",
-    "Tests",
-    "Briefs"
-  ],
+  "projectManager.tags": [],
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -130,15 +122,15 @@
     "strings": true
   },
   "tailwindCSS.emmetCompletions": true,
-  "tailwindCSS.experimental.classRegex": [
-    "tw`([^`]*)", // tw`...`
-    "tw='([^']*)", // <div tw='...' />
-    "tw={'([^'}]*)", // <div tw={'...'} />
-    "tw=\"([^\"]*)", // <div tw="..." />
-    "tw={\"([^\"}]*)", // <div tw={"..."} />
-    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
-    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
-  ],
+  // "tailwindCSS.experimental.classRegex": [
+  //   "tw`([^`]*)", // tw`...`
+  //   "tw='([^']*)", // <div tw='...' />
+  //   "tw={'([^'}]*)", // <div tw={'...'} />
+  //   "tw=\"([^\"]*)", // <div tw="..." />
+  //   "tw={\"([^\"}]*)", // <div tw={"..."} />
+  //   "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+  //   "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+  // ],
   "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -158,7 +150,6 @@
     "build"
   ],
   "editor.tabSize": 2,
-  "prettier.jsxSingleQuote": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
