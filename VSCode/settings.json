@@ -5,12 +5,45 @@
   "material-icon-theme.saturation": 1,
   "material-icon-theme.folders.color": "#ead2ac",
   "editor.fontFamily": "'Iosevka', 'Ubuntu Mono', 'DM Mono', Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
   "editor.fontSize": 13,
   "editor.renderWhitespace": "boundary",
   "editor.wordWrap": "bounded",
   "files.autoSave": "onFocusChange",
-  "editor.cursorSmoothCaretAnimation": true,
   "security.workspace.trust.untrustedFiles": "newWindow",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "search.exclude": {
     "**/node_modules": true,
     "package*.json": true,
@@ -19,41 +52,16 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
+  "git.autofetchPeriod": 300,
+  "git.pruneOnFetch": true,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.enableCommitSigning": true,
-  "emmet.includeLanguages": {
-    "twig": "html"
-  },
-  "emmet.excludeLanguages": ["markdown", "php"],
-  "php.suggest.basic": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "security.workspace.trust.emptyWindow": false,
   "gitlens.views.remotes.pullRequests.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "editor.guides.bracketPairs": true,
-  "editor.bracketPairColorization.enabled": true,
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#ffc14ed7",
-    "editorBracketHighlight.foreground2": "#ff6eb2d7",
-    "editorBracketHighlight.foreground3": "#45a8f9d7",
-    "editorBracketHighlight.foreground4": "#B084EBd7",
-    "editorBracketHighlight.foreground5": "#36f2ffd7",
-    "editorBracketHighlight.foreground6": "#72faafd7",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
   },
-  "projectManager.git.baseFolders": ["C:\\projects"],
-  "projectManager.vscode.baseFolders": ["C:\\projects"],
-  "projectManager.tags": [],
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.associations": {
-    "*.twig": "twig",
-    ".env.local": "ini"
-  },
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "redhat.telemetry.enabled": false,
   "gitlens.menus": {
     "editor": {
       "blame": false,
@@ -94,6 +102,41 @@
       "stash": true
     }
   },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "php.suggest.basic": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.emptyWindow": false,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffc14ed7",
+    "editorBracketHighlight.foreground2": "#ff6eb2d7",
+    "editorBracketHighlight.foreground3": "#45a8f9d7",
+    "editorBracketHighlight.foreground4": "#B084EBd7",
+    "editorBracketHighlight.foreground5": "#36f2ffd7",
+    "editorBracketHighlight.foreground6": "#72faafd7",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
+  },
+  "projectManager.git.baseFolders": ["C:\\projects"],
+  "projectManager.vscode.baseFolders": ["C:\\projects"],
+  "projectManager.tags": [],
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib",
+    "build"
+  ],
+  "files.associations": {
+    "*.twig": "twig",
+    ".env.local": "ini"
+  },
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "redhat.telemetry.enabled": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.exclude": {
@@ -101,18 +144,6 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
-  },
-  "gitlens.advanced.messages": {
-    "suppressCreatePullRequestPrompt": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "docker.volumes.groupBy": "CreatedTime",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -122,53 +153,12 @@
     "strings": true
   },
   "tailwindCSS.emmetCompletions": true,
-  // "tailwindCSS.experimental.classRegex": [
-  //   "tw`([^`]*)", // tw`...`
-  //   "tw='([^']*)", // <div tw='...' />
-  //   "tw={'([^'}]*)", // <div tw={'...'} />
-  //   "tw=\"([^\"]*)", // <div tw="..." />
-  //   "tw={\"([^\"}]*)", // <div tw={"..."} />
-  //   "tw\\.\\w+`([^`]*)", // tw.xxx`...`
-  //   "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
-  // ],
-  "[postcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.autofetchPeriod": 300,
-  "git.pruneOnFetch": true,
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 90,
   "workbench.startupEditor": "none",
-  "projectManager.git.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test",
-    ".haxelib",
-    "build"
-  ],
-  "editor.tabSize": 2,
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "workbench.experimental.layoutControl.enabled": true,
   "workbench.experimental.layoutControl.type": "toggles",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}"
 }
