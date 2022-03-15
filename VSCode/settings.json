@@ -1,17 +1,52 @@
 {
   "workbench.colorTheme": "Dracula Soft",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.experimental.layoutControl.enabled": true,
+  "workbench.experimental.layoutControl.type": "toggles",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "support.constant.classname.twin",
+        "settings": {
+          "foreground": "#f2fb9d"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffc14ed7",
+    "editorBracketHighlight.foreground2": "#ff6eb2d7",
+    "editorBracketHighlight.foreground3": "#45a8f9d7",
+    "editorBracketHighlight.foreground4": "#B084EBd7",
+    "editorBracketHighlight.foreground5": "#36f2ffd7",
+    "editorBracketHighlight.foreground6": "#72faafd7",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
+  },
   "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.saturation": 1,
   "material-icon-theme.folders.color": "#ead2ac",
+  "editor.fontSize": 13,
   "editor.fontFamily": "'Iosevka', 'Ubuntu Mono', 'DM Mono', Consolas, 'Courier New', monospace",
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
   "editor.renderWhitespace": "boundary",
   "editor.wordWrap": "bounded",
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 90,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "files.autoSave": "onFocusChange",
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "[dockercompose]": {
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
@@ -26,22 +61,19 @@
   "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "[javascript]": {
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json]": {
+  "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "search.exclude": {
@@ -102,26 +134,13 @@
       "stash": true
     }
   },
-  "emmet.includeLanguages": {
-    "twig": "html"
-  },
-  "emmet.excludeLanguages": ["markdown", "php"],
   "php.suggest.basic": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "security.workspace.trust.emptyWindow": false,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#ffc14ed7",
-    "editorBracketHighlight.foreground2": "#ff6eb2d7",
-    "editorBracketHighlight.foreground3": "#45a8f9d7",
-    "editorBracketHighlight.foreground4": "#B084EBd7",
-    "editorBracketHighlight.foreground5": "#36f2ffd7",
-    "editorBracketHighlight.foreground6": "#72faafd7",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff184a"
-  },
-  "projectManager.git.baseFolders": ["C:\\projects"],
-  "projectManager.vscode.baseFolders": ["C:\\projects"],
+  "projectManager.git.baseFolders": ["D:\\projects", "D:\\1-dev_tools"],
+  "projectManager.vscode.baseFolders": ["D:\\projects"],
   "projectManager.tags": [],
   "projectManager.git.ignoredFolders": [
     "node_modules",
@@ -132,7 +151,6 @@
     "build"
   ],
   "files.associations": {
-    "*.twig": "twig",
     ".env.local": "ini"
   },
   "screencastMode.onlyKeyboardShortcuts": true,
@@ -148,17 +166,9 @@
   "docker.volumes.groupBy": "CreatedTime",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "tabnine.experimentalAutoImports": true,
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
   "css.validate": false,
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "tailwindCSS.emmetCompletions": true,
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
-  "editor.formatOnSave": true,
-  "editor.wordWrapColumn": 90,
-  "workbench.startupEditor": "none",
-  "workbench.experimental.layoutControl.enabled": true,
-  "workbench.experimental.layoutControl.type": "toggles",
-  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}"
+  "tailwindcss.colorDecorators": "off"
 }
