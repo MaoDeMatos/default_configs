@@ -33,7 +33,6 @@
   "profiles": {
     "defaults": {
       "colorScheme": "Dracula",
-      "opacity": 0.97,
       "font": {
         "face": "Iosevka",
         "size": 11,
@@ -64,13 +63,22 @@
       {
         "cursorShape": "filledBox",
         "font": {
-          "face": "Ubuntu Mono",
-          "size": 12
+          "face": "Ubuntu Mono"
         },
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
         "name": "Ubuntu",
         "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "commandline": "pwsh -Command ssh pi@raspi-mao",
+        "cursorShape": "filledBox",
+        "font": {
+          "face": "Ubuntu Mono"
+        },
+        "guid": "{34998a33-6a62-4acd-aa8d-c7b3bb63d52c}",
+        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+        "name": "Raspberry"
       },
       {
         "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -130,6 +138,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#282A36",
+      "black": "#21222C",
+      "blue": "#BD93F9",
+      "brightBlack": "#6272A4",
+      "brightBlue": "#D6ACFF",
+      "brightCyan": "#A4FFFF",
+      "brightGreen": "#69FF94",
+      "brightPurple": "#FF92DF",
+      "brightRed": "#FF6E6E",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFFA5",
+      "cursorColor": "#F8F8F2",
+      "cyan": "#8BE9FD",
+      "foreground": "#F8F8F2",
+      "green": "#50FA7B",
+      "name": "Dracula",
+      "purple": "#FF79C6",
+      "red": "#FF5555",
+      "selectionBackground": "#44475A",
+      "white": "#F8F8F2",
+      "yellow": "#F1FA8C"
     },
     {
       "background": "#282C34",
@@ -291,29 +322,7 @@
       "selectionBackground": "#FFFFFF",
       "white": "#C0C0C0",
       "yellow": "#808000"
-    },
-    {
-      "name": "Dracula",
-      "cursorColor": "#F8F8F2",
-      "selectionBackground": "#44475A",
-      "background": "#282A36",
-      "foreground": "#F8F8F2",
-      "black": "#21222C",
-      "blue": "#BD93F9",
-      "cyan": "#8BE9FD",
-      "green": "#50FA7B",
-      "purple": "#FF79C6",
-      "red": "#FF5555",
-      "white": "#F8F8F2",
-      "yellow": "#F1FA8C",
-      "brightBlack": "#6272A4",
-      "brightBlue": "#D6ACFF",
-      "brightCyan": "#A4FFFF",
-      "brightGreen": "#69FF94",
-      "brightPurple": "#FF92DF",
-      "brightRed": "#FF6E6E",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFFFA5"
     }
-  ]
+  ],
+  "theme": "dark"
 }

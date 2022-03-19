@@ -22,6 +22,7 @@
 - Prettier
 - ESLint
 - GitLens
+- Git Graph
 - Project Manager
 
 ## Other
