@@ -1,0 +1,29 @@
+version: "3.8"
+
+volumes:
+  postgres_data:
+
+services:
+  pgsql:
+    restart: "always"
+    build:
+      context: .
+      target: pgsql
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: docker_root_pass
+    volumes:
+      - "postgres_data:/var/lib/postgresql/data"
+    healthcheck:
+      interval: 5s
+      timeout: 5s
+      retries: 3
+
+  adminer:
+    image: adminer
+    restart: always
+    environment:
+      ADMINER_DESIGN: dracula
+    ports:
+      - 8080:8080
