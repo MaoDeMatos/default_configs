@@ -2,8 +2,8 @@
   "workbench.colorTheme": "Dracula Soft",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.experimental.layoutControl.enabled": true,
-  "workbench.experimental.layoutControl.type": "toggles",
+  "workbench.layoutControl.enabled": true,
+  "workbench.layoutControl.type": "toggles",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -29,7 +29,7 @@
   "editor.fontFamily": "'Iosevka', 'Ubuntu Mono', 'DM Mono', Consolas, 'Courier New', monospace",
   "editor.tabSize": 2,
   "editor.renderWhitespace": "boundary",
-  "editor.wordWrap": "bounded",
+  "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 90,
   "editor.quickSuggestions": {
@@ -80,9 +80,6 @@
     "**/node_modules": true,
     "package*.json": true,
     "*.lock": true
-  },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
   },
   "git.autofetchPeriod": 300,
   "git.pruneOnFetch": true,
@@ -139,8 +136,8 @@
   "security.workspace.trust.emptyWindow": false,
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
-  "projectManager.git.baseFolders": ["D:\\projects", "D:\\1-dev_tools"],
-  "projectManager.vscode.baseFolders": ["D:\\projects"],
+  "projectManager.git.baseFolders": ["C:\\projects"],
+  "projectManager.vscode.baseFolders": ["C:\\projects"],
   "projectManager.tags": [],
   "projectManager.git.ignoredFolders": [
     "node_modules",
@@ -170,5 +167,12 @@
   "css.validate": false,
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
-  "tailwindcss.colorDecorators": "off"
+  "tailwindcss.colorDecorators": "off",
+  "emmet.excludeLanguages": [
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
